@@ -1,0 +1,16 @@
+{
+  "name": "student-api",
+  "version": "1.0.0",
+  "description": "CRUD API for student",
+  "main": "index.js",
+  "author": "Anjan",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.3"
+  }
+}

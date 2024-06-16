@@ -1,0 +1,20 @@
+### Index | Read | GET
+GET http://localhost:8000/22
+###
+### POST | Create
+POST http://localhost:8000/
+Content-Type: application/json
+
+{
+    "id" : "1",
+    "name" : "Student1",
+    "contact" : "Contact1"
+}
+###
+### PUT | Update
+PUT  http://localhost:8000/123
+###
+
+### DELETE | Delete
+DELETE  http://localhost:8000/12
+###
